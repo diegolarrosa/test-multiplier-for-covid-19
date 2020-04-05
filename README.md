@@ -46,8 +46,11 @@ Se requiere una técnica que permita contaminar un recipiente con los hisopos co
 ## Recomendaciones
 
 1-	Es importante hacer éste tipo de test a todos los que circulan, y especialmente a los encargados de distribuir suministros, de ésta forma se puede frenar la propagación de los asintomáticos.
+
 2-	Elegir un número de multiplicación acorde a la cantidad de infectados que se presume en esa región, a muchos infectados menor el número de multiplicación.
+
 3-	Elegir la cantidad de etapas de multiplicación, si se requieren muchos test, hay que tener más etapas, teniendo en cuenta que cuanto más etapas exista mayor será la complejidad del sistema, además del aumento del tiempo de testeo.
+
 4-	Reservar un porcentaje de test de multiplicación, por ejemplo un 30% de test para multiplicación, el resto de test se puede utilizar de la misma forma que  se viene utilizando hasta ahora.
 
 
