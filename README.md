@@ -14,7 +14,7 @@ El método de multiplicador de test sirve especialmente para detectar los casos 
 
 
 
-## Multiplicando por 100 la cantidad de test:
+## Multiplicando por 100 la cantidad de test
 
 Se toman tres muestras independientes por cada persona testeada (teniendo en cuenta como una muestra como un test estándar, en caso de que el protocolo normal requiera más de una muestra) en la primera muestra se usa como muestra estándar, la cual no se utiliza hasta el final del procedimiento. La segunda muestra se utiliza para contaminar un recipiente con diez muestras de otras personas, de ésta forma estamos testeando diez personas al mismo tiempo, tampoco se utiliza hasta terminar el primer procedimiento.  La tercera muestra es el primer procedimiento, y consiste en contaminar un recipiente con cien muestras de otras personas, y a esto realizar el testeo correspondiente.
 El primer paso es contaminar un recipiente con cien muestras, y realizar el test correspondiente, si el testeo da negativo, no se realizan los siguientes testeos, y las muestras se desechan, con lo cual da una ganancia o ahorro de 99 test, en cambio si el test da positivo se realiza el siguiente paso, que consiste en realizar diez testeos con las diez segundas muestras correspondientes a los cien test anteriores. Si en alguno de esos diez test da positivo, se pasa al siguiente paso, el cual consiste en realizar el testeo correspondiente al grupo de diez test que dieron positivo con la primera muestra. De ésta forma se podría ahorrar muchos testeos, con el inconveniente de la prolongación del tiempo del test, sin embargo en la práctica esto no es del todo cierto, ya que los tiempos de testeos generalmente se prolongan gracias a la saturación por la gran cantidad de testeos en cola de espera, y si se resuelven en grupos, podría incluso ser mucho más rápido aplicar el método de testeos por multiplicación.
@@ -22,28 +22,28 @@ El primer paso es contaminar un recipiente con cien muestras, y realizar el test
 
 
 
-## Tiempos de testeo:
+## Tiempos de testeo
 
 Teniendo en cuenta un caso a testear, el tiempo es el triple que un método estándar, sin tener en cuenta el tiempo de transporte, además se agrega el tiempo de contaminación en un recipiente por cada etapa, para la multiplicación de cien test se requieren dos etapas de contaminación en recipiente.
 
 
 
 
-## Efectividad de la multiplicación:
+## Efectividad de la multiplicación
 
 El método es muy efectivo con cierto grupo de gente, que son especialmente los que no presentan síntomas, ya que cuanto menor sea el número de infectados, más eficiente va a ser el método. En caso de encontrar una población muy infectada, es necesario disminuir la multiplicación de las muestras de diez a cinco, de esa forma mejorar la eficiencia. También se puede optar por aumentar el número de etapas para lograr abarcar mayor cantidad de casos testeados.
 
 
 
 
-## Experimentación de la contaminación de muestras:
+## Experimentación de la contaminación de muestras
 
 Se requiere una técnica que permita contaminar un recipiente con los hisopos correspondientes a las muestras de cada individuo. En la experimentación se requiere saber el tiempo requerido para que la contaminación haga efecto, y también la sustancia necesaria para hacer de base y recibir tal contaminación.
 
 
 
 
-## Recomendaciones:
+## Recomendaciones
 
 1-	Es importante hacer éste tipo de test a todos los que circulan, y especialmente a los encargados de distribuir suministros, de ésta forma se puede frenar la propagación de los asintomáticos.
 2-	Elegir un número de multiplicación acorde a la cantidad de infectados que se presume en esa región, a muchos infectados menor el número de multiplicación.
@@ -53,14 +53,14 @@ Se requiere una técnica que permita contaminar un recipiente con los hisopos co
 
 
 
-## Test rápidos:
+## Test rápidos
 
 El tipo de test utilizados para aplicar el método de multiplicación, no necesariamente tiene que ser del tipo rápido, si es necesario que cuente con un porcentaje de efectividad bueno.
 
 
 
 
-## Conclusiones:
+## Conclusiones
 
 Al aumentar la cantidad de test no solo se aumenta la eficiencia, sino que en algunos casos se puede atacar el efecto de los asintomáticos por primera vez. En muchos países se opta por confinamientos sociales muy estrictos, lo que lleva a una caía económica, al poder identificar los casos asintomáticos se podría disminuir el confinamiento social.
 
