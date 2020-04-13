@@ -101,7 +101,7 @@ Por lo tanto 20 x 20 parece ser la configuración de test más eficiente, sin em
 
 
 
-## Poner el funcionamiento el testeo:
+## Poner en funcionamiento el testeo:
 
 Para llevar a cabo el testeo masivo por multiplicación,  se tienen que tomar al menos tres muestras por persona, esas muestras tienen que estar identificadas, para poder contactar a la persona afectada una vez que se tiene el resultado, esto ya se realiza con el testeo común.
 Cuando las muestras llegan al laboratorio, se toma la decisión de los factores de multiplicación, se puede adoptar una política común, como por ejemplo 10 x 10. Luego se realiza el procedimiento ya descripto.
