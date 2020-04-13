@@ -88,9 +88,13 @@ El cálculo es el siguiente:
 (2200 x 1.5 x 3 x 1000000) / 45000000 = 220
 Donde 1.5 es el factor no detectado, 3 es por el porcentaje de asintomáticos, 1000000 es para tener la cifra en función del millón de habitantes, y 45 millones es la cantidad de habitantes de la Argentina.
 En base a esto tomando como ejemplo tres pruebas, cada una con 10 mil simulaciones, obtuve los siguientes resultados:
+
 10 x 10 -> Eficiencia:  98,56%
+
 20 x 20 -> Eficiencia:  98,82%
+
 30 x 30 -> Eficiencia:  98,66%
+
 Por lo tanto 20 x 20 parece ser la configuración de test más eficiente, sin embargo se tendrían que combinar 400 muestras, esto puede resultar un inconveniente, ya que no difiere demasiado con el resultado que dio 10 x 10, el cual solo se tienen que combinar 100 muestras.
 
 
