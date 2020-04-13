@@ -43,7 +43,7 @@ Se requiere una técnica que permita contaminar un recipiente con los hisopos co
 
 
 
-## Recomendaciones
+## Datos importantes a tener en cuenta
 
 1-	Es importante hacer éste tipo de test a todos los que circulan, y especialmente a los encargados de distribuir suministros, de ésta forma se puede frenar la propagación de los asintomáticos.
 
@@ -66,6 +66,41 @@ El tipo de test utilizados para aplicar el método de multiplicación, no necesa
 ## Conclusiones
 
 Al aumentar la cantidad de test no solo se aumenta la eficiencia, sino que en algunos casos se puede atacar el efecto de los asintomáticos por primera vez. En muchos países se opta por confinamientos sociales muy estrictos, lo que lleva a una caía económica, al poder identificar los casos asintomáticos se podría disminuir el confinamiento social.
+
+
+
+
+
+## Simulación de búsqueda de contagios mediante test:
+
+Es un programa de computadora de código abierto, en el cual se pueden simular distintos escenarios de contagio y de estrategias de multiplicación de test. Se puede optar por ejecutar el programa ya compilado, o compilar el código.
+Primero se tiene que determinar cuántos casos asintomáticos podrían existir por millón de habitantes. También existe la posibilidad de modificar la cantidad de simulaciones, que por defecto es 1000.
+Por último se determina la multiplicación de test, por ejemplo 10x10, 20x20, 30x30, etc.
+
+
+
+
+
+## Análisis de resultados de la simulación:
+
+Los resultados varían de acuerdo a la cantidad de infectados por millón de habitantes, que en el caso de la Argentina a la fecha 13/04/2020 tiene 2200 contagiados probados, con eso se puede deducir que existen 220 casos por millón de habitantes (sumados los posibles asintomáticos).
+El cálculo es el siguiente:
+(2200 x 1.5 x 3 x 1000000) / 45000000 = 220
+Donde 1.5 es el factor no detectado, 3 es por el porcentaje de asintomáticos, 1000000 es para tener la cifra en función del millón de habitantes, y 45 millones es la cantidad de habitantes de la Argentina.
+En base a esto tomando como ejemplo tres pruebas, cada una con 10 mil simulaciones, obtuve los siguientes resultados:
+10 x 10 -> Eficiencia:  98,56%
+20 x 20 -> Eficiencia:  98,82%
+30 x 30 -> Eficiencia:  98,66%
+Por lo tanto 20 x 20 parece ser la configuración de test más eficiente, sin embargo se tendrían que combinar 400 muestras, esto puede resultar un inconveniente, ya que no difiere demasiado con el resultado que dio 10 x 10, el cual solo se tienen que combinar 100 muestras.
+
+
+
+
+
+## Poner el funcionamiento el testeo:
+
+Para llevar a cabo el testeo masivo por multiplicación,  se tienen que tomar al menos tres muestras por persona, esas muestras tienen que estar identificadas, para poder contactar a la persona afectada una vez que se tiene el resultado, esto ya se realiza con el testeo común.
+Cuando las muestras llegan al laboratorio, se toma la decisión de los factores de multiplicación, se puede adoptar una política común, como por ejemplo 10 x 10. Luego se realiza el procedimiento ya descripto.
 
 
 
