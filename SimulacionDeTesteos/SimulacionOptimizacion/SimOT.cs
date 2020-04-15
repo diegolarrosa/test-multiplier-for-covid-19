@@ -69,7 +69,7 @@ namespace SimulacionOptimizacion
             {
                 for (int j = 0; j < st.multB; j++)
                 {
-                    st.listaDePersonas[i * st.multA + j] = rmd.Next(p) == 1;//También se puede poner "== 0", la idea es poner un número bajo que sea menor que p, donde p es probable que tome valores mayores a 1000, al menos que los infectados por millón tenga una cifra muy alta
+                    st.listaDePersonas[i * st.multB + j] = rmd.Next(p) == 1;//También se puede poner "== 0", la idea es poner un número bajo que sea menor que p, donde p es probable que tome valores mayores a 1000, al menos que los infectados por millón tenga una cifra muy alta
                 }
             }
 
@@ -78,7 +78,7 @@ namespace SimulacionOptimizacion
             //{
             //    for (int j = 0; j < st.multB; j++)
             //    {
-            //        if (st.listaDePersonas[i * st.multA + j])
+            //        if (st.listaDePersonas[i * st.multB + j])
             //        {
             //            res++;
             //        }
@@ -93,7 +93,7 @@ namespace SimulacionOptimizacion
             {
                 for (int j = 0; j < st.multB; j++)
                 {
-                    if (st.listaDePersonas[i * st.multA + j])
+                    if (st.listaDePersonas[i * st.multB + j])
                     {
                         //Se encontró al menos un infectado
                         q = true;
@@ -117,7 +117,7 @@ namespace SimulacionOptimizacion
                 q = false;
                 for (int j = 0; j < st.multB; j++)
                 {
-                    if (st.listaDePersonas[i * st.multA + j])
+                    if (st.listaDePersonas[i * st.multB + j])
                     {
                         //Se encontró al menos un infectado
                         q = true;
